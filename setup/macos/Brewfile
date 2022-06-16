@@ -17,6 +17,8 @@ brew "curl"
 brew "httpie"
 brew "romkatv/powerlevel10k/powerlevel10k"
 brew "exa"
+brew "nvm"
+brew "go"
 
 
 cask "discord"
@@ -29,5 +31,6 @@ cask "slack"
 cask "gitkraken"
 cask "mongodb-compass"
 cask "docker"
-cask "zoomus"
+cask "zoom"
+
 
