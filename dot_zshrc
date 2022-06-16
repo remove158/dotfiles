@@ -76,6 +76,8 @@ plugins=(git
 	vscode
 	zsh-autosuggestions
 	zsh-syntax-highlighting
+	macos
+	nvm
 	)
 ZSH_DISABLE_COMPFIX="true"
 source $ZSH/oh-my-zsh.sh
@@ -109,5 +111,3 @@ source $CONFIG_PATH/zsh/git.zsh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-[[ -s $HOME/.nvm/nvm.sh ]] && source $HOME/.nvm/nvm.sh  # This loads NVM
