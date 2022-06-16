@@ -2,7 +2,7 @@
 PURPLE='\033[0;35m'
 GREEN='\033[0;32m'
 
-NORMAL_PATH="$HOME/setup"
+NORMAL_PATH="$HOME/.setup"
 
 
 
