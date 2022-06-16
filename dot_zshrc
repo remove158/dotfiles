@@ -78,6 +78,7 @@ plugins=(git
 	zsh-syntax-highlighting
 	macos
 	nvm
+	docker
 	)
 ZSH_DISABLE_COMPFIX="true"
 source $ZSH/oh-my-zsh.sh
