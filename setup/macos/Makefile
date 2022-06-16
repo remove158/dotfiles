@@ -1,4 +1,5 @@
 init :
 	sh 01-install-homebrew.sh
-install :
+	sh 02-enable-key-repeat.sh
 	brew bundle
+
