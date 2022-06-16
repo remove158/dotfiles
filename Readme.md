@@ -7,7 +7,6 @@
 
   - `cd ~/setup/macos`
   - `make init`
-  - `brew bundle`
 
 - To apply terminal config
   - `cd ~/setup/zsh`
