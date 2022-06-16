@@ -4,10 +4,5 @@
   - `chezmoi apply`
 
 - To install applications
-
-  - `cd ~/setup/macos`
-  - `make init`
-
-- To apply terminal config
-  - `cd ~/setup/zsh`
+  - `cd ~/.config`
   - `make init`
