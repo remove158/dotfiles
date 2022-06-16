@@ -1,0 +1,31 @@
+tap "candid82/brew"
+tap "cdr/coder"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "koekeishiya/formulae"
+tap "yqrashawn/goku"
+
+
+brew "git"
+brew "wget"
+brew "unzip"
+brew "curl"
+brew "httpie"
+brew "romkatv/powerlevel10k/powerlevel10k"
+
+
+cask "discord"
+cask "insomnia"
+cask "google-chrome"
+cask "tableplus"
+cask "iterm2"
+cask "visual-studio-code"
+cask "slack"
+cask "gitkraken"
+cask "mongodb-compass"
+cask "docker"
+
