@@ -90,9 +90,9 @@ plugins=(git
 ZSH_DISABLE_COMPFIX="true"
 source $ZSH/oh-my-zsh.sh
 
-source $CONFIG_PATH/zsh/alias.zsh
-source $CONFIG_PATH/zsh/env.zsh
-source $CONFIG_PATH/zsh/git.zsh
+[[ ! -f $CONFIG_PATH/zsh/alias.zsh ]]  || source $CONFIG_PATH/zsh/alias.zsh
+[[ ! -f $CONFIG_PATH/zsh/env.zsh ]]  || source $CONFIG_PATH/zsh/env.zsh
+[[ ! -f $CONFIG_PATH/zsh/git.zsh ]]  || source $CONFIG_PATH/zsh/git.zsh
 
 # User configuration
 
