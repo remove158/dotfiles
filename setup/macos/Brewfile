@@ -17,6 +17,7 @@ brew "curl"
 brew "httpie"
 brew "romkatv/powerlevel10k/powerlevel10k"
 brew "exa"
+brew "chezmoi"
 brew "nvm"
 brew "go"
 
