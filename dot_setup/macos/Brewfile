@@ -19,6 +19,7 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 brew "exa"
 brew "chezmoi"
 brew "nvm"
+brew "pnpm"
 brew "go"
 
 
