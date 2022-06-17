@@ -21,6 +21,7 @@ brew "chezmoi"
 brew "nvm"
 brew "pnpm"
 brew "go"
+brew "telnet"
 
 
 cask "discord"
