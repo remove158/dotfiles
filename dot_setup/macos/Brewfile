@@ -8,7 +8,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "yqrashawn/goku"
-
+tap "romkatv/powerlevel10k"
 
 brew "git"
 brew "wget"
