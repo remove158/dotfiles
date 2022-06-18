@@ -35,5 +35,6 @@ cask "gitkraken"
 cask "mongodb-compass"
 cask "docker"
 cask "zoom"
+cask "font-fira-code"
 
 
