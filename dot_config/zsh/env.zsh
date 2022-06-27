@@ -7,5 +7,5 @@ export PATH="$PNPM_HOME:$PATH"
 export NVM_AUTOLOAD="1"
 
 # local dev
-export ENV="beta2"
+export ENV="beta"
 
