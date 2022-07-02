@@ -22,6 +22,7 @@ brew "nvm"
 brew "pnpm"
 brew "go"
 brew "telnet"
+brew "neovim"
 
 
 cask "discord"
