@@ -1,5 +1,5 @@
 # system
-export PATH=$HOME/bin:/usr/local/bin:.:$PATH:~/go/bin
+export PATH=$HOME/bin:/usr/local/bin:.:$PATH:~/go/bin:~/.local/bin
 export PNPM_HOME="/Users/osm/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
