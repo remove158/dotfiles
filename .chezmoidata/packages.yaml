@@ -1,0 +1,8 @@
+packages:
+  darwin:
+    brews:
+    - 'git'
+    - 'neovim'
+    casks:
+    - 'discord'
+
