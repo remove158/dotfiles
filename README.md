@@ -1,8 +1,7 @@
 # Dotfiles with Chezmoi
 ## To apply
 ```zsh
-export GITHUB_USERNAME="remove158"
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply GITHUB_USERNAME
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply remove158
 ```
 
 ## Nvim
