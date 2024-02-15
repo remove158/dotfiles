@@ -1,7 +1,7 @@
 packages:
   darwin:
     taps:
-    - 'cask-fonts'
+    - 'homebrew/cask-fonts'
     brews:
     - 'git'
     - 'neovim'
