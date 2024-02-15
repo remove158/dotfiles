@@ -11,6 +11,7 @@ packages:
     casks:
     - 'discord'
     - 'font-fira-code-nerd-font'
+    - 'iterm2'
   linux:
     apt:
     - 'zsh'
