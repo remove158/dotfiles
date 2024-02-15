@@ -3,6 +3,17 @@ packages:
     brews:
     - 'git'
     - 'neovim'
+    - 'ripgrep'
+    - 'lazygit'
+    - 'tmux'
     casks:
     - 'discord'
+  linux:
+    apt:
+    - 'zsh'
+    - 'ripgrep'
+    - 'lazygit'
+    - 'tmux'
+    snap:
+    - 'nvim'
 

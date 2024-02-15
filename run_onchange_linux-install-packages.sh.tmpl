@@ -1,0 +1,15 @@
+{{ if eq .chezmoi.os "linux" -}}
+#!/bin/bash
+
+{{ range .packages.linux.apt }}
+sudo apt-get install {{ . | quote }} -y
+{{ end  }}
+
+{{ range .packages.linux.snap }}
+sudo apt-get install {{ . | quote }} -y
+sudo snap install {{ . | quote }} --classic
+{{ end  }}
+
+
+
+{{ end -}}
