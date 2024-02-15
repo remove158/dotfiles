@@ -1,23 +1,24 @@
 packages:
   darwin:
     taps:
-    - 'homebrew/cask-fonts'
+      - 'homebrew/cask-fonts'
     brews:
-    - 'git'
-    - 'neovim'
-    - 'ripgrep'
-    - 'lazygit'
-    - 'tmux'
+      - 'git'
+      - 'neovim'
+      - 'ripgrep'
+      - 'lazygit'
+      - 'tmux'
     casks:
-    - 'discord'
-    - 'font-fira-code-nerd-font'
-    - 'iterm2'
+      - 'font-fira-code-nerd-font'
+      - 'discord'
+      - 'iterm2'
   linux:
     apt:
-    - 'zsh'
-    - 'ripgrep'
-    - 'lazygit'
-    - 'tmux'
+      - 'zsh'
+      - 'ripgrep'
+      - 'snapd'
+      - 'tmux'
+      - 'lazygit'
     snap:
-    - 'nvim'
+      - 'nvim'
 
