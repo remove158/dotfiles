@@ -6,6 +6,9 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # brew bundle
 brew bundle --no-lock --file=/dev/stdin <<EOF
+{{ range .packages.darwin.taps -}}
+tap {{ . | quote }}
+{{ end -}}
 {{ range .packages.darwin.brews -}}
 brew {{ . | quote }}
 {{ end -}}

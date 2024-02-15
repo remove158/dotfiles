@@ -1,5 +1,7 @@
 packages:
   darwin:
+    taps:
+    - 'cask-fonts'
     brews:
     - 'git'
     - 'neovim'
@@ -8,6 +10,7 @@ packages:
     - 'tmux'
     casks:
     - 'discord'
+    - 'font-fira-code-nerd-font'
   linux:
     apt:
     - 'zsh'
