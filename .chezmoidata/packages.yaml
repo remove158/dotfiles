@@ -8,6 +8,7 @@ packages:
       - 'ripgrep'
       - 'lazygit'
       - 'tmux'
+      - 'fzf'
     casks:
       - 'font-fira-code-nerd-font'
       - 'discord'
@@ -15,6 +16,7 @@ packages:
   linux:
     apt:
       - 'zsh'
+      - 'fzf'
       - 'ripgrep'
       - 'snapd'
       - 'tmux'
