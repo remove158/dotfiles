@@ -23,5 +23,6 @@ packages:
       - "tmux"
       - "build-essential"
       - "golang"
+      - "unzip"
     snap:
       - "nvim"
