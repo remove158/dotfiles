@@ -1,6 +1,4 @@
 
-source alias.sh
-eval "$(zoxide init zsh)"
 
 export PATH="/usr/local/opt/curl/bin:$PATH"
 
@@ -37,3 +35,10 @@ zinit light starship/starship
 zinit snippet OMZP::git
 zinit snippet OMZP::dotenv
 zinit snippet OMZP::nvm
+
+eval "$(zoxide init zsh)"
+
+alias vim="nvim"
+alias nvc="cd ~/.config/nvim && nvim && cd -"
+alias p="pnpm"
+
