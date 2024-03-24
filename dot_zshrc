@@ -33,7 +33,6 @@ zinit light starship/starship
 
 
 zinit snippet OMZP::git
-zinit snippet OMZP::dotenv
 zinit snippet OMZP::nvm
 
 eval "$(zoxide init zsh)"
