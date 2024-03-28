@@ -7,12 +7,4 @@ vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
---jump
-vim.keymap.set("n", "(", "/)\\|(<Cr>NNN:nohlsearch<CR>zz")
-vim.keymap.set("n", ")", "/)\\|(<Cr>n:nohlsearch<CR>zz")
-vim.keymap.set("n", '"', "/\"\\|'\\|`<Cr>n:nohlsearch<CR>zz")
-vim.keymap.set("n", "'", "/\"\\|'\\|`<Cr>NNN:nohlsearch<CR>zz")
-vim.keymap.set("n", "{", "/}\\|{<Cr>NNN:nohlsearch<CR>zz")
-vim.keymap.set("n", "}", "/}\\|{<Cr>n:nohlsearch<CR>zz")
-
 vim.keymap.set("n", "<C-g>", ":LazyGit<CR>")
