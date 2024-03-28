@@ -1,5 +1,9 @@
 
 
+# Ubuntu
+export PATH="/snap/bin:$PATH"
+
+# Darwin
 export PATH="/usr/local/opt/curl/bin:$PATH"
 
 ### Added by Zinit's installer
